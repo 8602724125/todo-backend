@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 // const url = `mongodb://localhost:27017/todo`;
-const url = `mongodb+srv://Pankaj_Maihtele:Pankaj12@cluster0.xfxnakk.mongodb.net/todo?retryWrites=true&w=majority`;
+// const url = `mongodb+srv://Pankaj:<password>@cluster0.xfxnakk.mongodb.net/`
+const url = `mongodb+srv://Pankaj:Pankaj12@cluster0.xfxnakk.mongodb.net/todo?retryWrites=true&w=majority`;
 
 
 mongoose.connect(url)
